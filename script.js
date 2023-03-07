@@ -9,3 +9,6 @@ $(".header__rateYo").rateYo("option", "normalFill", "#D7D1C7");
   $(".header__rateYo").rateYo("option", "ratedFill", "#FFB648");
   var normalFill = $(".header__rateYo").rateYo("option", "precision");
   $(".header__rateYo").rateYo("option", "precision", 3);
+$(function () {
+    var mixer = mixitup('.blog__list');
+  })
