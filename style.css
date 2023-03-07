@@ -547,3 +547,64 @@ box-shadow: 0 0 10px 5px #1E1B1B;;
 }
 .brand__company {
 }
+.blog {
+    padding: 135px 0;
+}
+
+.blog__title {
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 76px;
+    letter-spacing: -0.03em;
+}
+
+.blog__button-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 46px;
+    
+}
+.blog__btn {
+    background: transparent;
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+}
+.blog__btn--active:focus{
+    color: #f10f0f;
+}
+.blog__list {
+    display: grid;
+    grid-template:1fr 1fr / 1fr 1fr 1fr;
+    gap: 32px;
+}
+
+.blog__list-img {
+    margin-bottom: 24px;
+}
+.blog__list-img img{
+    width: 100%;
+    height: 100%;
+}
+.blog__list-date {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #939191;
+    margin-bottom: 16px;
+}
+.blog__list-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: -0.03em;
+    margin-bottom: 16px;
+}
+.blog__list-text {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    color: #232536;
+}
