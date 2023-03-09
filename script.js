@@ -13,3 +13,12 @@ $(".header__rateYo").rateYo("option", "normalFill", "#D7D1C7");
 $(function () {
     var mixer = mixitup('.blog__list');
   })
+ $('.customers__slider').slick({
+    infinite: true,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    arrows:false,
+    dots:true,
+  })
+  $
+  ;
