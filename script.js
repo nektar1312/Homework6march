@@ -13,12 +13,25 @@ $(".header__rateYo").rateYo("option", "normalFill", "#D7D1C7");
 $(function () {
     var mixer = mixitup('.blog__list');
   })
- $('.customers__slider').slick({
+  $('.customers__slider').slick({
     infinite: true,
     slidesToShow: 2,
     slidesToScroll: 1,
     arrows:false,
     dots:true,
+    appendDots: $('.customers__dots'),
   })
-  $
-  ;
+ $('.customers__arrow-prew').on('click', function(e) {
+    e.preventDefault()
+    $('.customers__slider').slick('slickPrev')
+  })
+  $('.customers__arrow-next').on('click', function(e) {
+    e.preventDefault()
+    $('.customers__slider').slick('slickNext')
+  });
+  $('.questions__item-link').on('click', function(e){
+    e.preventDefault()
+    $(this).toggleClass('questions__item-link--active')
+    $(this).children('.questions__item-text').slideToggle()
+  }
+  )
