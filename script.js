@@ -29,9 +29,21 @@ $(function () {
     e.preventDefault()
     $('.customers__slider').slick('slickNext')
   });
-  $('.questions__item-link').on('click', function(e){
+//   $('.questions__item-link').on('click', function(e){
+//     e.preventDefault()
+//     $(this).toggleClass('questions__item-link--active')
+//     $(this).children('.questions__item-text').slideToggle()
+//   }
+//   )
+ $('.questions__item-link').on('click', function(e) {
     e.preventDefault()
-    $(this).toggleClass('questions__item-link--active')
-    $(this).children('.questions__item-text').slideToggle()
-  }
-  )
+    if ($(this).hasClass('questions__item-link--active')) {
+      $(this).removeClass('questions__item-link--active')
+      $(this).children('.questions__item-text').slideUp()
+    } else {
+      $('.questions__item-link').removeClass('questions__item-link--active')
+      $('.questions__item-text').slideUp()
+      $(this).addClass('questions__item-link--active')
+      $(this).children('.questions__item-text').slideDown()
+    }
+  })
