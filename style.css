@@ -828,3 +828,127 @@ border: 4px solid #939191;
     line-height: 175%;
     color: #939191;
 }
+/*    ============================================  */
+    .contact {
+    padding: 121px 0 522px 0;
+}
+.contact__wrapper {
+    
+}
+.contact__title {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 84px;
+    letter-spacing: -0.03em;
+    margin-bottom: 48px;
+    max-width: 507px;
+}
+.contact__body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact__content {
+    
+}
+
+.contact__questions {
+}
+.contact__form {
+}
+.contact__form-block {
+   
+}
+.contact__form-box{
+    background: #F2F2F2;
+    border-radius: 2px;
+    padding: 23px 40px;
+    margin-bottom: 4px;
+    width: 100%;
+    
+}
+
+.contact__form-box::placeholder{
+    color: #1E1B1B;
+}
+.contact__form-name::placeholder {
+    color: #1E1B1B;
+}
+.contact__form-email {
+   
+}
+.contact__select {
+    
+}
+.contact__form-massage {
+    resize: none;
+    height: 63.98px;
+    
+}
+.contact__form-button {
+    display: flex;
+    margin-top: 64px;
+}
+.contact__form-label {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    
+}
+.contact__checkbox {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+}
+.contact__default {
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    position: absolute;
+}
+.contact__default:checked +.contact__custom{
+    background:url(./check.svg) 50% 50% no-repeat, #FF6433;
+
+}
+.contact__custom {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border:1px solid #d1cdcd;;
+    border-radius: 3px; 
+    cursor: pointer;
+}
+.contact__form-btn {
+    background: #FF6433;
+    border-radius: 12px;
+    padding: 16px 40px;
+    
+    transition: all 1s;
+}
+.contact__form-btn:hover {
+    transform: scale(1.1);
+    
+}
+.contact__info {
+    
+}
+.contact__row {
+}
+.contact__row-title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+    opacity: 0.7;
+    margin-bottom: 2px;
+}
+.contact__row-desk {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.03em;
+    margin-bottom: 32px;
+}
